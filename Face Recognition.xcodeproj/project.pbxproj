@@ -12,6 +12,8 @@
 		1F582C602B61F8DF001FCDE3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F582C5F2B61F8DF001FCDE3 /* Item.swift */; };
 		1F582C622B61F8E1001FCDE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F582C612B61F8E1001FCDE3 /* Assets.xcassets */; };
 		1F582C652B61F8E1001FCDE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F582C642B61F8E1001FCDE3 /* Preview Assets.xcassets */; };
+		1F582C6C2B62BDE3001FCDE3 /* StillFacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F582C6B2B62BDE3001FCDE3 /* StillFacesViewModel.swift */; };
+		1F582C8D2B6313E6001FCDE3 /* StillFacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F582C8C2B6313E6001FCDE3 /* StillFacesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		1F582C5F2B61F8DF001FCDE3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		1F582C612B61F8E1001FCDE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F582C642B61F8E1001FCDE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F582C6B2B62BDE3001FCDE3 /* StillFacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillFacesViewModel.swift; sourceTree = "<group>"; };
+		1F582C8C2B6313E6001FCDE3 /* StillFacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillFacesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +57,10 @@
 		1F582C5A2B61F8DF001FCDE3 /* Face Recognition */ = {
 			isa = PBXGroup;
 			children = (
-				1F582C5B2B61F8DF001FCDE3 /* Face_RecognitionApp.swift */,
-				1F582C5D2B61F8DF001FCDE3 /* ContentView.swift */,
-				1F582C5F2B61F8DF001FCDE3 /* Item.swift */,
-				1F582C612B61F8E1001FCDE3 /* Assets.xcassets */,
+				1F582C702B62BFD2001FCDE3 /* Others */,
+				1F582C6F2B62BFC9001FCDE3 /* ViewModel */,
+				1F582C6E2B62BFB8001FCDE3 /* View */,
+				1F582C6D2B62BFA8001FCDE3 /* Model */,
 				1F582C632B61F8E1001FCDE3 /* Preview Content */,
 			);
 			path = "Face Recognition";
@@ -68,6 +72,40 @@
 				1F582C642B61F8E1001FCDE3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F582C6D2B62BFA8001FCDE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F582C5F2B61F8DF001FCDE3 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F582C6E2B62BFB8001FCDE3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F582C5D2B61F8DF001FCDE3 /* ContentView.swift */,
+				1F582C8C2B6313E6001FCDE3 /* StillFacesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F582C6F2B62BFC9001FCDE3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1F582C6B2B62BDE3001FCDE3 /* StillFacesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1F582C702B62BFD2001FCDE3 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				1F582C5B2B61F8DF001FCDE3 /* Face_RecognitionApp.swift */,
+				1F582C612B61F8E1001FCDE3 /* Assets.xcassets */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +181,8 @@
 				1F582C5E2B61F8DF001FCDE3 /* ContentView.swift in Sources */,
 				1F582C602B61F8DF001FCDE3 /* Item.swift in Sources */,
 				1F582C5C2B61F8DF001FCDE3 /* Face_RecognitionApp.swift in Sources */,
+				1F582C6C2B62BDE3001FCDE3 /* StillFacesViewModel.swift in Sources */,
+				1F582C8D2B6313E6001FCDE3 /* StillFacesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
