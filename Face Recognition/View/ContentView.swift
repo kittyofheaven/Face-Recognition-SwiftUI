@@ -9,6 +9,7 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
+<<<<<<< Updated upstream
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
 
@@ -16,10 +17,17 @@ struct ContentView: View {
         NavigationStack {
             StillFacesView()
         }
+=======
+    var body: some View {
+        LiveCameraView()
+>>>>>>> Stashed changes
     }
 }
 
 #Preview {
     ContentView()
+<<<<<<< Updated upstream
         .modelContainer(for: Item.self, inMemory: true)
+=======
+>>>>>>> Stashed changes
 }

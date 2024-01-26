@@ -7,24 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F42703C2B641C2E00B8EA28 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F42703B2B641C2E00B8EA28 /* FrameView.swift */; };
 		1F582C5C2B61F8DF001FCDE3 /* Face_RecognitionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F582C5B2B61F8DF001FCDE3 /* Face_RecognitionApp.swift */; };
 		1F582C5E2B61F8DF001FCDE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F582C5D2B61F8DF001FCDE3 /* ContentView.swift */; };
 		1F582C602B61F8DF001FCDE3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F582C5F2B61F8DF001FCDE3 /* Item.swift */; };
 		1F582C622B61F8E1001FCDE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F582C612B61F8E1001FCDE3 /* Assets.xcassets */; };
 		1F582C652B61F8E1001FCDE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F582C642B61F8E1001FCDE3 /* Preview Assets.xcassets */; };
+<<<<<<< Updated upstream
 		1F582C6C2B62BDE3001FCDE3 /* StillFacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F582C6B2B62BDE3001FCDE3 /* StillFacesViewModel.swift */; };
 		1F582C8D2B6313E6001FCDE3 /* StillFacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F582C8C2B6313E6001FCDE3 /* StillFacesView.swift */; };
+=======
+		1FB7D7152B63D377004533C1 /* LiveCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB7D7142B63D377004533C1 /* LiveCameraView.swift */; };
+		1FB7D7172B63D3A3004533C1 /* LiveCameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB7D7162B63D3A2004533C1 /* LiveCameraViewModel.swift */; };
+		1FB84BC72B6329F200E74513 /* StillImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB84BC62B6329F200E74513 /* StillImageViewModel.swift */; };
+		1FB84BC92B632A0700E74513 /* StillImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB84BC82B632A0700E74513 /* StillImageView.swift */; };
+>>>>>>> Stashed changes
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F42703B2B641C2E00B8EA28 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
 		1F582C582B61F8DF001FCDE3 /* Face Recognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Face Recognition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F582C5B2B61F8DF001FCDE3 /* Face_RecognitionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Face_RecognitionApp.swift; sourceTree = "<group>"; };
 		1F582C5D2B61F8DF001FCDE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F582C5F2B61F8DF001FCDE3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		1F582C612B61F8E1001FCDE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F582C642B61F8E1001FCDE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
 		1F582C6B2B62BDE3001FCDE3 /* StillFacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillFacesViewModel.swift; sourceTree = "<group>"; };
 		1F582C8C2B6313E6001FCDE3 /* StillFacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillFacesView.swift; sourceTree = "<group>"; };
+=======
+		1FB7D7142B63D377004533C1 /* LiveCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCameraView.swift; sourceTree = "<group>"; };
+		1FB7D7162B63D3A2004533C1 /* LiveCameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCameraViewModel.swift; sourceTree = "<group>"; };
+		1FB84BC62B6329F200E74513 /* StillImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillImageViewModel.swift; sourceTree = "<group>"; };
+		1FB84BC82B632A0700E74513 /* StillImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillImageView.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +73,17 @@
 		1F582C5A2B61F8DF001FCDE3 /* Face Recognition */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< Updated upstream
 				1F582C702B62BFD2001FCDE3 /* Others */,
 				1F582C6F2B62BFC9001FCDE3 /* ViewModel */,
 				1F582C6E2B62BFB8001FCDE3 /* View */,
 				1F582C6D2B62BFA8001FCDE3 /* Model */,
+=======
+				1FB84BC52B6329D400E74513 /* Others */,
+				1FB84BC42B6329CC00E74513 /* Model */,
+				1FB84BC32B6329C500E74513 /* ViewModel */,
+				1FB84BC22B6329BE00E74513 /* View */,
+>>>>>>> Stashed changes
 				1F582C632B61F8E1001FCDE3 /* Preview Content */,
 			);
 			path = "Face Recognition";
@@ -74,7 +97,31 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+<<<<<<< Updated upstream
 		1F582C6D2B62BFA8001FCDE3 /* Model */ = {
+=======
+		1FB84BC22B6329BE00E74513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F582C5D2B61F8DF001FCDE3 /* ContentView.swift */,
+				1FB84BC82B632A0700E74513 /* StillImageView.swift */,
+				1FB7D7142B63D377004533C1 /* LiveCameraView.swift */,
+				1F42703B2B641C2E00B8EA28 /* FrameView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1FB84BC32B6329C500E74513 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1FB84BC62B6329F200E74513 /* StillImageViewModel.swift */,
+				1FB7D7162B63D3A2004533C1 /* LiveCameraViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1FB84BC42B6329CC00E74513 /* Model */ = {
+>>>>>>> Stashed changes
 			isa = PBXGroup;
 			children = (
 				1F582C5F2B61F8DF001FCDE3 /* Item.swift */,
@@ -82,6 +129,7 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+<<<<<<< Updated upstream
 		1F582C6E2B62BFB8001FCDE3 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +152,13 @@
 			children = (
 				1F582C5B2B61F8DF001FCDE3 /* Face_RecognitionApp.swift */,
 				1F582C612B61F8E1001FCDE3 /* Assets.xcassets */,
+=======
+		1FB84BC52B6329D400E74513 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				1F582C612B61F8E1001FCDE3 /* Assets.xcassets */,
+				1F582C5B2B61F8DF001FCDE3 /* Face_RecognitionApp.swift */,
+>>>>>>> Stashed changes
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -178,11 +233,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F42703C2B641C2E00B8EA28 /* FrameView.swift in Sources */,
+				1FB84BC92B632A0700E74513 /* StillImageView.swift in Sources */,
 				1F582C5E2B61F8DF001FCDE3 /* ContentView.swift in Sources */,
 				1F582C602B61F8DF001FCDE3 /* Item.swift in Sources */,
 				1F582C5C2B61F8DF001FCDE3 /* Face_RecognitionApp.swift in Sources */,
+<<<<<<< Updated upstream
 				1F582C6C2B62BDE3001FCDE3 /* StillFacesViewModel.swift in Sources */,
 				1F582C8D2B6313E6001FCDE3 /* StillFacesView.swift in Sources */,
+=======
+				1FB84BC72B6329F200E74513 /* StillImageViewModel.swift in Sources */,
+				1FB7D7172B63D3A3004533C1 /* LiveCameraViewModel.swift in Sources */,
+				1FB7D7152B63D377004533C1 /* LiveCameraView.swift in Sources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +382,7 @@
 				DEVELOPMENT_TEAM = 2Y88T94JYC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Face Recognition wants to use your camera to detect faces.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -348,6 +412,7 @@
 				DEVELOPMENT_TEAM = 2Y88T94JYC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Face Recognition wants to use your camera to detect faces.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
